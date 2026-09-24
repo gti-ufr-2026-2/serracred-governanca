@@ -1,0 +1,43 @@
+name: Risco de TI
+description: Registrar um risco identificado na SERRACRED
+title: "[RISCO] "
+labels: []
+body:
+  - type: input
+    id: evidencia
+    attributes:
+      label: Evidencia de origem
+      description: Qual das oito evidencias do Caderno originou este risco (E1 a E8)
+    validations:
+      required: true
+  - type: textarea
+    id: causa
+    attributes:
+      label: Causa
+      description: O que existe hoje na organizacao que torna o evento possivel
+      placeholder: Devido a...
+    validations:
+      required: true
+  - type: textarea
+    id: evento
+    attributes:
+      label: Evento
+      description: O que pode acontecer. Nao e categoria, e acontecimento
+      placeholder: ...pode ocorrer que...
+    validations:
+      required: true
+  - type: textarea
+    id: consequencia
+    attributes:
+      label: Consequencia
+      description: O efeito sobre a organizacao, os cooperados ou a conformidade
+      placeholder: ...resultando em...
+    validations:
+      required: true
+  - type: textarea
+    id: justificativa
+    attributes:
+      label: Justificativa da probabilidade e do impacto
+      description: Em duas linhas, por que voces atribuiram essas notas
+    validations:
+      required: true
