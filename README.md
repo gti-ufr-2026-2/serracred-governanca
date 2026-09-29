@@ -3,7 +3,6 @@
 Repositorio da disciplina **Governanca de Tecnologia da Informacao** — Sistemas de Informacao, UFR, 2026/2.
 
 A SERRACRED e uma cooperativa de credito ficticia usada como organizacao-caso da disciplina.
-Aqui nao se escreve codigo: o GitHub e usado como **plataforma de governanca**.
 
 ## O mapeamento
 
