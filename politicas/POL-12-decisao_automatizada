@@ -2,9 +2,22 @@
 politica: Assegurar explicabilidade e canal de revisão de decisão automatizada
 versao: 1.0
 fonte_da_obrigacao: Legal
-obrigacao: Cada decisão automatica tomada deve ter o seu histórico e justificativa guardada para fim de verificação posterior 
-responsavel: Gestor responsável pelo setor
-aprovador: Diretor de Operações
-evidencia_de_cumprimento: Histórico de decisões e impactos 
+obrigacao: Cada decisão automatica tomada deve ter o seu histórico e justificativa guardada, para fim de verificação posterior
+responsavel: Gerente de TI do setor
+aprovador: Diretor executivo
+evidencia_de_cumprimento: Histórico de decisões e impactos + registro de pedidos de revisão com prazo e justificativa + relatório trimestral de decisões automatizadas.
 periodicidade_de_revisao: Mensal
 ---
+
+1. Objetivo: Traçar o caminho da decisão automática, a fim de medir o quão eficiente foi e quais seus impactos.
+
+2. A quem se aplica: Se aplica ao Gerente de TI do setor.
+
+3. Regras
+3.1: Deve ser verificado a cada mês.
+
+3.2: Deve Gerar relatório trimestral com as informações de impacto e resultados.
+
+3.3: Relatório deve ser auditado em reunião formal com Diretores do setor.
+
+4. Como o cumprimento é verificado: Verificado atravéz do histórico das decisões, junto do que foi registrado e por quem foi, mensalmente. Juntamente, um relatório trimestral
