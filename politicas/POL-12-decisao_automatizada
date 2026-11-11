@@ -1,7 +1,7 @@
 |---|---|
 | politica | Assegurar explicabilidade e canal de revisão de decisão automatizada |
 | versao | 1.0 |
-| fonte_da_obrigacao | Regulatória |
+| fonte_da_obrigacao | Legal |
 | obrigacao | Cada decisão automática tomada deve ter o seu histórico e justificativa guardados, além de garantir um canal para pedidos de revisão. |
 | responsavel | Gerente de TI do setor |
 | aprovador | Diretor Executivo |
