@@ -8,7 +8,7 @@
 | obrigacao | Assegurar ao titular informação clara sobre os critérios de decisões tomadas unicamente por tratamento automatizado e um canal para solicitar a revisão dessas decisões. |
 | responsável | Encarregado pelo Tratamento de Dados Pessoais |
 | aprovador | Diretoria Executiva |
-| evidência_de_cumprimento | Registro de decisões automatizadas com ficha de critérios por sistema e registro de pedidos de revisão com protocolo, prazo e resultado |
+| evidência_de_cumprimento | Registro de decisões automatizadas com ficha de critérios por sistema; registro de pedidos de revisão (protocolo, prazos, revisor, conferência do revisor com a ficha, recusa parcial, justificativa e data da comunicação ao Encarregado, resultado); relatório anual de validação assinado pelo responsável do sistema e pelo Encarregado |
 | periodicidade_de_revisão | semestral |
 
 ## 1. Objetivo
@@ -39,15 +39,22 @@ O canal de revisão deve estar publicado no site e ser gratuito. Cada pedido rec
 
 ### 3.5 Análise do pedido
 
-O pedido de revisão deve ser analisado por pessoa natural com competência para manter ou alterar a decisão, que não tenha participado da configuração do sistema, e respondido por escrito, com fundamentação, em até 15 dias corridos.
+O pedido de revisão deve ser analisado por pessoa natural com competência para manter ou alterar a decisão, que não conste na lista de responsáveis da ficha do sistema (regra 3.2), e respondido por escrito, com fundamentação, em até 15 dias corridos. O registro do pedido deve ter um campo em que o Encarregado confirma que o revisor não consta nessa lista.
 
 ### 3.6 Segredo comercial e industrial
 
-Ao explicar os critérios, a organização pode proteger segredo comercial e industrial, mas não pode negar a explicação geral dos critérios e procedimentos. Toda recusa parcial deve ser justificada por escrito e comunicada ao Encarregado em até 2 dias úteis.
+Ao explicar os critérios, a SERRACRED pode proteger segredo comercial e industrial, mas não pode negar a explicação geral dos critérios e procedimentos. Toda recusa parcial deve ser registrada no pedido de revisão, com os campos: recusa parcial (sim/não), justificativa escrita e data da comunicação ao Encarregado, que deve ocorrer em até 2 dias úteis..
 
 ### 3.7 Validação anual
 
-Cada sistema deve ser validado uma vez por ano, com teste em amostra para detectar resultados discriminatórios, e relatório assinado pelo responsável do sistema e arquivado no repositório.
+Cada sistema deve ser validado uma vez por ano, conforme o procedimento abaixo:
+
+a) Amostra: no mínimo 400 decisões do período, sorteadas aleatoriamente, ou todas as decisões, se forem menos de 400.
+b) Comparação: calcular a taxa de resultado favorável (por exemplo, crédito aprovado) para cada grupo de titulares definido na ficha do sistema.
+c) Limite: se a taxa de qualquer grupo for inferior a 80% da taxa do grupo com maior resultado favorável, o resultado é considerado potencialmente discriminatório.
+d) Consequência: o responsável do sistema deve apresentar plano de correção em até 30 dias, e o sistema deve ser suspenso se a correção não for concluída em 90 dias.
+
+O relatório deve ser assinado pelo responsável do sistema e pelo Encarregado, e arquivado no repositório.
 
 ### 3.8 Mudança de critérios
 
@@ -58,8 +65,8 @@ Mudança nos critérios de decisão só entra em produção depois de a ficha do
 O cumprimento é verificado por:
 
 - **Registro de decisões automatizadas:** cada sistema em produção tem ficha vigente, e o histórico do repositório mostra autor, data e aprovação de cada alteração.
-- **Registro de pedidos de revisão:** protocolo, data de recebimento, data da resposta, revisor e resultado. O Encarregado calcula mensalmente o percentual de respostas dentro de 15 dias.
-- **Relatórios anuais de validação** de cada sistema.
-- **Amostragem semestral da auditoria interna:** sorteio de decisões comunicadas e conferência de que continham o aviso da regra 3.3.
+- **Registro de pedidos de revisão:** protocolo, data de recebimento, data da resposta, revisor, conferência do revisor com a ficha, recusa parcial e resultado. O Encarregado acompanha mensalmente o percentual de respostas dentro de 15 dias.
+- **Relatórios anuais de validação** de cada sistema, com a assinatura do responsável do sistema e a do Encarregado.
+- **Amostragem semestral da auditoria interna**, independente do Encarregado: sorteio de decisões comunicadas, para conferir o aviso da regra 3.3, e sorteio de pedidos de revisão, para conferir o prazo de 15 dias, a independência do revisor e o registro das recusas parciais. A auditoria interna também recalcula o percentual de respostas no prazo.
 
 Não servem como evidência: declaração de que "o canal existe" sem registro de pedidos, ficha de sistema sem histórico de versões, ou ata de reunião que apenas cite a política.
