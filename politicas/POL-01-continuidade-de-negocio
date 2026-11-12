@@ -1,0 +1,25 @@
+---
+politica: Continuidade de negocios
+versao: 1.0
+fonte_da_obrigacao: regulatoria
+obrigacao: manter plano de continuidade de negócio documentado, testado periodicamente e com registro formal dos resultados dos testes
+responsavel: Gerente de Tecnologia da Informação
+aprovador: Diretor de Operações
+evidencia_de_cumprimento: Plano de Continuidade de Negócio (PCN) atualizado, atas e relatórios técnicos de execução dos testes semestrais e planos de ação para falhas identificadas
+periodicidade_de_revisao: semestral
+---
+
+## 1. Objetivo
+Estabelecer diretrizes obrigatórias para garantir a disponibilidade, a integridade e a recuperação tempestiva dos sistemas críticos e das bases de dados pessoais da organização diante de incidentes graves, falhas de infraestrutura ou desastres, assegurando a continuidade das operações essenciais.
+## 2. A quem se aplica
+Esta política aplica-se a todas as equipes de Tecnologia da Informação, Segurança da Informação, gestores de processos críticos de negócio e fornecedores de infraestrutura em nuvem ou serviços essenciais contratados pela organização.
+## 3. Regras
+  1. A equipe de TI deve mapear os sistemas críticos de negócio e definir, formalmente, o Tempo Objetivo de Recuperação (RTO) e o Ponto Objetivo de Recuperação (RPO) para cada ativo que processe dados pessoais ou suporte operações essenciais.
+  2. O Gerente de TI deve manter um Plano de Continuidade de Negócio (PCN) e um Plano de Recuperação de Desastres (DRP) documentados em repositório versionado, contendo procedimentos passo a passo para contingência e restauração.
+  3. Os backups das bases de dados críticas devem ser executados automaticamente a cada 24 horas, armazenados em ambiente geograficamente isolado e protegidos por criptografia.
+  4. A equipe de TI deve realizar testes práticos de restauração de backups e simulações de falha (failover) a cada seis meses, registrando o tempo real de recuperação obtido.
+  5. Toda falha identificada durante os testes semestrais deve gerar um plano de ação corretivo com responsável e prazo de resolução de até 30 dias corridos.
+  6. O PCN deve ser revisado e atualizado em até 15 dias após qualquer mudança estrutural na arquitetura de sistemas ou inclusão de novo processo crítico.
+
+## 4. Como o cumprimento e verificado
+O cumprimento desta política é verificado semestralmente por meio da auditoria dos relatórios técnicos de execução dos testes de restauração e failover (comparando o tempo real com o RTO/RPO definidos), dos logs automatizados de execução de backups e do acompanhamento do encerramento dos planos de ação corretivos.
