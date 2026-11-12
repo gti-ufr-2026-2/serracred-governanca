@@ -1,7 +1,7 @@
 | **politica** | Gestão de acessos a sistemas que tratam informação classificada |
 | --- | --- |
 | **versao** | 1.0 |
-| **fonte_da_obrigacao** | Normativa (norma técnica de segurança adotada pela organização) |
+| **fonte_da_obrigacao** | Normativa — ISO/IEC 27002:2022, controle 5.18 (Direitos de acesso) |
 | **obrigacao** | Conceder acessos conforme o perfil do usuário, revisar as permissões a cada três meses e revogar os acessos no desligamento. |
 | **responsavel** | Gerente de Tecnologia da Informação |
 | **aprovador** | Diretor de Operações |
