@@ -7,7 +7,7 @@
 | fonte_da_obrigacao | legal (Lei nº 13.709/2018 - LGPD, art. 20, caput e §§ 1º e 2º) |
 | obrigacao | Assegurar ao titular informação clara sobre os critérios de decisões tomadas unicamente por tratamento automatizado e um canal para solicitar a revisão dessas decisões. |
 | responsável | Encarregado pelo Tratamento de Dados Pessoais |
-| aprovador | Diretor-Presidente |
+| aprovador | Diretoria Executiva |
 | evidência_de_cumprimento | Registro de decisões automatizadas com ficha de critérios por sistema e registro de pedidos de revisão com protocolo, prazo e resultado |
 | periodicidade_de_revisão | semestral |
 
@@ -17,13 +17,13 @@ Garantir que toda decisão tomada unicamente com base em tratamento automatizado
 
 ## 2. A quem se aplica
 
-A todas as áreas e sistemas da organização que tomem ou apoiem decisões sobre titulares (por exemplo: concessão de crédito, seleção de candidatos, definição de perfil de consumo, preço, acesso a serviços), incluindo sistemas operados por terceiros em nome da organização.
+A todas as áreas e sistemas da SERRACRED que tomem ou apoiem decisões sobre cooperados, como score e limite de crédito, pré-aprovação, crédito rural, perfil de investidor na plataforma de investimentos e acesso a serviços, incluindo sistemas operados pelo centro de processamento do sistema cooperativo e por outros terceiros.
 
 ## 3. Regras
 
 ### 3.1 Registro dos sistemas
 
-Todo sistema que tome decisão sobre titular sem intervenção humana deve constar do registro de decisões automatizadas antes de entrar em produção. Sistema fora do registro não pode ser colocado em produção.
+Todo sistema que tome decisão sobre cooperado sem intervenção humana deve constar do registro de decisões automatizadas antes de entrar em produção. A ficha do sistema deve ser aprovada pelo Encarregado, pelo Diretor Financeiro (Riscos) quando envolver crédito, e pelo Gerente de Tecnologia da Informação. Sistema fora do registro não pode ser colocado em produção.
 
 ### 3.2 Ficha de critérios
 
