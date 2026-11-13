@@ -29,7 +29,7 @@ Esta política se aplica aos funcionários, gestores, estagiários, prestadores 
 
 4. Os gestores, juntamente com a Tecnologia da Informação, devem revisar os acessos a cada três meses, verificando se as permissões continuam necessárias.
 
-5. Quando ocorrer mudança de função, setor ou desligamento de um usuário, seus acessos devem ser atualizados ou revogados imediatamente, conforme a situação.
+5. Quando ocorrer mudança de função, setor ou desligamento de um usuário, a Gerência de Tecnologia da Informação deverá atualizar ou revogar seus acessos imediatamente. O responsável pela alteração deverá registrar a data e o horário da solicitação, da mudança e da conclusão da ação, identificando o usuário afetado e as permissões modificadas.
 
 ## 4. Como o cumprimento é verificado
 
