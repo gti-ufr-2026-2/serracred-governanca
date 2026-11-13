@@ -1,0 +1,34 @@
+politica: Classificação da Informação
+versao: 1.0
+fonte_da_obrigacao: normativa (norma técnica de segurança adotada)
+obrigacao: classificar as informações nos níveis público, interno, restrito e sigiloso, definindo o tratamento adequado para cada nível
+responsavel: Gerente de Tecnologia da Informação
+aprovador: Presidente
+evidencia_de_cumprimento: inventário de informações classificadas e registros de revisão das classificações
+periodicidade_de_revisao: semestral
+
+## 1. Objetivo
+
+Estabelecer regras para classificar e proteger as informações da SERRACRED, garantindo que cada informação receba o tratamento adequado de acordo com seu nível de importância e necessidade de proteção.
+
+## 2. A quem se aplica
+
+Esta política se aplica a todos os colaboradores, gestores, prestadores de serviços e demais pessoas que tenham acesso às informações da SERRACRED, independentemente do meio em que estejam armazenadas ou compartilhadas.
+
+## 3. Regras
+
+### 3.1 Classificação das informações
+
+Todas as informações da SERRACRED deverão ser classificadas em quatro níveis: público, interno, restrito e sigiloso, considerando seu conteúdo e os possíveis impactos de acesso ou divulgação indevida.
+
+### 3.2 Tratamento das informações
+
+As informações públicas poderão ser divulgadas sem restrições. As internas deverão ser utilizadas apenas nas atividades da cooperativa. As restritas terão acesso limitado às pessoas autorizadas, enquanto as sigilosas deverão receber proteção reforçada e acesso somente mediante autorização específica.
+
+### 3.3 Revisão das classificações
+
+A Gerência de Tecnologia da Informação deverá realizar revisões semestrais das classificações, verificando se os níveis de proteção continuam adequados. Quando houver mudanças na finalidade ou no conteúdo das informações, a classificação deverá ser reavaliada.
+
+## 4. Como o cumprimento é evidenciado
+
+O cumprimento desta política será acompanhado por meio de um inventário das informações classificadas, contendo seus respectivos níveis de classificação e responsáveis. A Gerência de Tecnologia da Informação deverá manter os registros atualizados e disponíveis para verificações e auditorias.
