@@ -1,0 +1,42 @@
+---
+politica: Resposta a Incidente de Segurança
+versao: 1.0
+fonte_da_obrigacao: Regulatória
+obrigacao: Classificar incidentes, acionar resposta e comunicar autoridade e titulares
+responsavel: Coordenador de Segurança da Informação
+aprovador: Diretor de Tecnologia (CTO)
+evidencia_de_cumprimento: Tickets de incidentes classificados, relatórios forenses e protocolos de notificação à ANPD.
+periodicidade_de_revisao: Semestral
+---
+
+## 1. Objetivo
+
+Estabelecer um procedimento ágil e padronizado para a identificação, classificação, resposta e comunicação de incidentes de segurança da informação, assegurando a mitigação de danos aos titulares de dados pessoais e o estrito cumprimento das obrigações regulatórias impostas pela Autoridade Nacional de Proteção de Dados (ANPD).
+
+## 2. A quem se aplica
+
+Esta política é de cumprimento obrigatório para todos os colaboradores, prestadores de serviços, terceiros e operadores de dados que utilizem, acessem ou gerenciem recursos tecnológicos e bases de dados da organização.
+
+## 3. Regras
+
+3.1
+
+Qualquer anomalia ou suspeita de vazamento de dados deve ser comunicada ao Centro de Operações de Segurança (SOC) de forma imediata. O Coordenador de Segurança da Informação possui o prazo máximo de 4 horas úteis, contadas a partir do registro do chamado, para classificar o evento quanto ao seu nível de criticidade (Baixo, Médio ou Alto) e registrar esta classificação no sistema de chamados.
+
+3.2
+
+Para incidentes classificados como Médios ou Altos, o Coordenador de Segurança da Informação deverá executar o Plano de Resposta a Incidentes, isolando imediatamente os ativos de rede afetados. A investigação técnica e a contenção primária devem ser concluídas e formalizadas em um relatório preliminar em até 24 horas do acionamento.
+
+3.3
+
+Confirmado um incidente que possa acarretar risco ou dano relevante aos titulares, o Encarregado de Proteção de Dados (DPO) deverá ser formalmente notificado pela área de Segurança. É responsabilidade exclusiva do DPO submeter a comunicação oficial à ANPD e aos titulares de dados afetados em, no máximo, 2 dias úteis após a avaliação definitiva do risco.
+
+## 4. Como o cumprimento e verificado
+
+Semestralmente, a área de Auditoria Interna deverá extrair uma amostragem do sistema de chamados do SOC filtrando pela categoria "Incidente de Segurança", e verificar:
+
+- Se a classificação do incidente ocorreu dentro do prazo de 4 horas;
+- Se há um relatório preliminar de contenção anexado ao ticket em até 24 horas para incidentes de nível Médio ou Alto;
+- Se há registro do protocolo de envio da notificação à ANPD anexado ao chamado, quando aplicável.
+
+Não serão aceitos como evidências relatos verbais ou trocas de e-mails informais não vinculadas ao ticket do incidente.
