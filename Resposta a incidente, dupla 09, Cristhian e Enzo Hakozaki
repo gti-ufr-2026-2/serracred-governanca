@@ -1,21 +1,20 @@
-politica	Resposta a incidente
-versao	1.0
-fonte_da_obrigacao:	regulatoria 
-obrigacao: Classificar incidentes, acionar resposta e comunicar autoridade e titulares
-responsavel:	Presidente do comitê
-aprovador	Representante de riscos
-evidencia_de_cumprimento: Plano de Resposta a Incidentes, Política de Segurança da Informação e Registros de Treinamento e Simulados
-periodicidade_de_revisao:	trimestral
-1. Objetivo
-Garantir que os colaboradores estejam preparados para lidar com situações de risco a vida e prevenção de acidentes.
-2. A quem se aplica
-essa politica se aplica a todos os colaboradores que utilizam os equipamentos e veículos fornecidos pela SERRACRED
-3. Regras
-3.1
-Todos os funcionários que precisem utilizar os veículos da SERRACRED devem possuir CNH categoria A e B.
-3.2
-Todos os funcionários que precisem utilizar os veículos da SERRACRED devem passar por consulta com psicóloga.
-3.3
-A todos os colaboradores que forem exigidos a realização de cursos preparatórios ou de prevenção fornecidos pela SERRACRED, devem realiza-los.
-4. Como o cumprimento e verificado
-O cumprimento dessas regras será verificado com o apoio dos documentos citados neste documento, caso seja constatado a negligencia quanto as regras por parte do funcionário, o mesmo estará sujeito a medidas previstas no contrato.
+politica: Resposta a Incidentes 
+versao: 1.0 
+fonte_da_obrigacao: Regulatória 
+obrigacao: tratar de incidentes de segurança envolvendo dados pessoais (vazamento, acesso indevido, perda de dados), aplicável a todos que tratam dados da SERRACRED. 
+responsavel: Encarregado (DPO) 
+aprovador: Diretor de Operações 
+evidencia_de_cumprimento: registro de incidentes, comprovantes de comunicação à ANPD com data e registro das comunicações enviadas aos titulares. 
+periodicidade_de_revisao: trimestral
+
+Objetivo tratar de incidentes de segurança envolvendo dados pessoais (vazamento, acesso indevido, perda de dados).
+A quem se aplica Se aplica a todos os funcionários que tratam dos dados da SERRACRED.
+Regras 
+3.1 
+Todo incidente suspeito deve ser reportado ao Encarregado (DPO) em até 24h após a identificação. 
+3.2 
+O incidente é classificado por nível de risco aos titulares (baixo, médio, alto) conforme critérios definidos no Plano de Resposta. Incidentes com risco ou dano relevante aos titulares são comunicados à ANPD e aos titulares no prazo regulamentar. 
+3.3 
+Todo incidente, comunicado ou não, é registrado no registro de incidentes, com data, classificação e medidas adotadas.
+Como o cumprimento é verificado
+“O Encarregado revisa trimestralmente o registro de incidentes e confere se os prazos de comunicação foram cumpridos.” Sanção por descumprimento não é forma de verificação.
